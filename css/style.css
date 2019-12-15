@@ -327,8 +327,10 @@ nav a:focus {
   }
 }
 
-.article-recent-info {
-  text-align: right;
+@media (min-width: 520px) {
+  .article-recent-info {
+    text-align: right;
+  }
 }
 
 @media (min-width: 675px) {
@@ -337,8 +339,10 @@ nav a:focus {
   }
 }
 
-.article-title-recent {
-  margin-top: -1.7em;
+@media (min-width: 520px) {
+  .article-title-recent {
+    margin-top: -1.9em;
+  }
 }
 
 @media (min-width: 675px) {
@@ -358,6 +362,10 @@ nav a:focus {
     margin-bottom: 2em;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .article-recent:last-child {
+    margin-bottom: 3em;
   }
 }
 
