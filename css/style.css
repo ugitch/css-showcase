@@ -433,6 +433,15 @@ nav a:focus {
   order: 1;
 }
 
+.widget-link {
+  text-decoration: none;
+}
+
+.widget-link:hover,
+.widget-link:focus {
+  text-decoration: underline;
+}
+
 /* About me, Posts */
 
 .main-about-me,
