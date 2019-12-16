@@ -433,8 +433,9 @@ nav a:focus {
   order: 1;
 }
 
-/* About me */
+/* About me, Posts */
 
-.main-about-me {
+.main-about-me,
+.main-post {
   margin-bottom: 3.5em;
 }
