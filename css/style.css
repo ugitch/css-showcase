@@ -111,12 +111,9 @@ h1 {
   margin: 0;
 }
 
-h3 {
-  color: #1792D2;
-}
-
+h3,
 a {
-  color: #1792d2;
+  color: #1792D2;
 }
 
 a:hover,
