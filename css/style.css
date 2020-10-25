@@ -242,6 +242,8 @@ footer p {
 
   aside {
     width: 29%;
+    min-width: 200px;
+    margin-left: 1em;
   }
 }
 
